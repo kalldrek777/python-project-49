@@ -16,7 +16,7 @@ def main():
         print(f'Question: {numb}')
         point = ''
         k = 0
-        for i in range(2, numb // 2 + 1):
+        for i in range(2, numb):
             if (numb % i == 0):
                 k = k + 1
         if (k <= 0):
