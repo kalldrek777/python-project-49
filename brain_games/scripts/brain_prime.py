@@ -3,6 +3,7 @@ from random import randint
 import prompt
 from brain_games.scripts.brain_games import main as f_main
 import math
+from brain_games import cli
 
 
 def main():
@@ -30,13 +31,13 @@ def main():
 
 
         if g!=str(point):
-            print(f"{g} is wrong answer ;(. Correct answer was {point}.\nLet's try again, {b}!")
+            print(f"{g} is wrong answer ;(. Correct answer was {point}.\nLet's try again, {cli.name}!")
             return False
         else:
             print('Correct!')
 
 
-    print(f'Congratulations, {b}')
+    print(f'Congratulations, {cli.name}')
 
 
 if __name__ == "main":
