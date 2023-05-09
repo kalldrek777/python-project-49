@@ -32,7 +32,7 @@ def main():
 
         if g != str(save):
             print(
-                f"{g} is wrong answer ;(. Correct answer" \
+                f"{g} is wrong answer ;(. Correct answer"
                 f" was {save}.\nLet's try again, {cli.name}!"
             )
             return False

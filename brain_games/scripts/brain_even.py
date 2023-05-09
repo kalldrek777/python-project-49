@@ -22,8 +22,8 @@ def main():
         g = prompt.string('Your answer: ')
 
         if g != point:
-            print(f"{g} is wrong answer ;(." \
-            f" Correct answer was {point}. Let's try again, {cli.name}!")
+            print(f"{g} is wrong answer ;(."
+                  f" Correct answer was {point}. Let's try again, {cli.name}!")
             return False
         else:
             print('Correct!')
