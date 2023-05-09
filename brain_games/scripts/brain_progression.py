@@ -2,24 +2,22 @@
 from random import randint
 import prompt
 from brain_games.scripts.brain_games import main as f_main
-import math
 from brain_games import cli
 
 
 def main():
-    b = f_main()
+    f_main()
     a = 0
-    while a<3:
+    while a < 3:
         a += 1
         print('What number is missing in the progression?')
-        numb = randint(1,16)
-        numb_2 = randint(1,6)
-        numb_3 = randint(1,10)
+        numb = randint(1, 16)
+        numb_2 = randint(1, 6)
+        numb_3 = randint(1, 10)
         iteration = 1
 
-
         string = 'Question: '
-        for i in range(1,11):
+        for i in range(1, 11):
             if iteration == numb_3:
                 string += '..' + ' '
                 save = numb
@@ -28,19 +26,18 @@ def main():
             numb += numb_2
             iteration += 1
 
-
         print(string)
-
 
         g = prompt.string('Your answer: ')
 
-
-        if g!=str(save):
-            print(f"{g} is wrong answer ;(. Correct answer was {save}.\nLet's try again, {cli.name}!")
+        if g != str(save):
+            print(
+                f"{g} is wrong answer ;(. Correct answer" \
+                f" was {save}.\nLet's try again, {cli.name}!"
+            )
             return False
         else:
             print('Correct!')
-
 
     print(f'Congratulations, {cli.name}!')
 

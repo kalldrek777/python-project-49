@@ -7,28 +7,25 @@ from brain_games import cli
 
 
 def main():
-    b = f_main()
+    f_main()
     a = 0
-    while a<3:
+    while a < 3:
         a += 1
         print('Find the greatest common divisor of given numbers.')
-        numb = randint(1,51)
-        numb_2 = randint(1,51)
-
+        numb = randint(1, 51)
+        numb_2 = randint(1, 51)
 
         print(f'Question: {numb} {numb_2}')
         point = math.gcd(numb, numb_2)
 
-	
         g = prompt.string('Your answer: ')
 
-
         if g!=str(point):
-            print(f"{g} is wrong answer ;(. Correct answer was {point}.\nLet's try again, {cli.name}!")
+            print(f"{g} is wrong answer ;(. Correct answer was" \
+                  f" {point}.\nLet's try again, {cli.name}!")
             return False
         else:
             print('Correct!')
-
 
     print(f'Congratulations, {cli.name}!')
 
