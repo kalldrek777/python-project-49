@@ -14,12 +14,12 @@ def main():
         print('What number is missing in the progression?')
         numb = randint(1,16)
         numb_2 = randint(1,6)
-        numb_3 = randint(1,11)
+        numb_3 = randint(1,10)
         iteration = 1
-    
+
 
         string = 'Question: '
-        for i in range(1,11): 
+        for i in range(1,11):
             if iteration == numb_3:
                 string += '..' + ' '
                 save = numb
@@ -30,7 +30,7 @@ def main():
 
 
         print(string)
-        
+
 
         g = prompt.string('Your answer: ')
 
