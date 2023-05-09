@@ -37,7 +37,7 @@ def main():
             print('Correct!')
 
 
-    print(f'Congratulations, {cli.name}')
+    print(f'Congratulations, {cli.name}!')
 
 
 if __name__ == "main":
