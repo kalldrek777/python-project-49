@@ -11,7 +11,7 @@ def main():
     a = 0
     while a<3:
         a += 1
-        print('Find the greatest common divisor of given numbers.')
+        print('What number is missing in the progression?')
         numb = randint(1,16)
         numb_2 = randint(1,6)
         numb_3 = randint(1,11)
