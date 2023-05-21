@@ -7,12 +7,10 @@ def main(module_game):
     a = 0
     while a < 3:
         a += 1
-        if module_game() == False:
+        if module_game() is False:
             return False
     print(f'Congratulations, {cli.name}!')
 
 
 if __name__ == '__main__':
     main()
-
-

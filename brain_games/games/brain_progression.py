@@ -10,7 +10,6 @@ def main():
     numb_3 = randint(1, 10)
     iteration = 1
 
-
     string = 'Question: '
     for i in range(1, 11):
         if iteration == numb_3:
