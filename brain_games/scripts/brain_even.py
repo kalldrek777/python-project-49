@@ -1,35 +1,11 @@
 #!/usr/bin/env/ python3
-from random import randint
-import prompt
-from brain_games.scripts.brain_games import main as f_main
-from brain_games import cli
+from brain_games.games.brain_even import main as game_module
+from brain_games.engine import main as engine
 
 
 def main():
-    f_main()
-    a = 0
-    while a < 3:
-        a += 1
-        print('Answer "yes" if the number is even, otherwise answer "no".')
-        numb = randint(1, 21)
-
-        if numb % 2 == 0:
-            point = 'yes'
-        else:
-            point = 'no'
-
-        print(f'Question: {numb}')
-        g = prompt.string('Your answer: ')
-
-        if g != point:
-            print(f"{g} is wrong answer ;(."
-                  f" Correct answer was {point}. Let's try again, {cli.name}!")
-            return False
-        else:
-            print('Correct!')
-
-    print(f'Congratulations, {cli.name}!')
+    engine(game_module)
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
