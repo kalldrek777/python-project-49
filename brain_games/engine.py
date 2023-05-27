@@ -1,16 +1,14 @@
-from brain_games.scripts.brain_games import main as f_main
-from brain_games import cli
+import prompt
 
 
 def main(module_game):
-    f_main()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    print(module_game.game_rool)
     a = 0
     while a < 3:
         a += 1
-        if module_game() is False:
+        if module_game.main(name) is False:
             return False
-    print(f'Congratulations, {cli.name}!')
-
-
-if __name__ == '__main__':
-    main()
+    print(f'Congratulations, {name}!')

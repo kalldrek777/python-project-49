@@ -1,10 +1,11 @@
 from random import randint
 import prompt
-from brain_games import cli
 
 
-def main():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+game_rool = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def main(name):
     numb = randint(1, 21)
 
     if numb % 2 == 0:
@@ -17,11 +18,7 @@ def main():
 
     if g != point:
         print(f"{g} is wrong answer ;(."
-              f" Correct answer was {point}. Let's try again, {cli.name}!")
+              f" Correct answer was {point}. Let's try again, {name}!")
         return False
     else:
         print('Correct!')
-
-
-if __name__ == "__main__":
-    main()

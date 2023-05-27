@@ -1,11 +1,12 @@
 from random import randint
 import math
-from brain_games import cli
 import prompt
 
 
-def main():
-    print('Find the greatest common divisor of given numbers.')
+game_rool = 'Find the greatest common divisor of given numbers.'
+
+
+def main(name):
     numb = randint(1, 51)
     numb_2 = randint(1, 51)
 
@@ -16,11 +17,7 @@ def main():
 
     if g != str(point):
         print(f"{g} is wrong answer ;(. Correct answer was"
-              f" {point}.\nLet's try again, {cli.name}!")
+              f" {point}.\nLet's try again, {name}!")
         return False
     else:
         print('Correct!')
-
-
-if __name__ == "__main__":
-    main()

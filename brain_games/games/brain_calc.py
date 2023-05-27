@@ -1,10 +1,11 @@
 from random import randint
 import prompt
-from brain_games import cli
 
 
-def main():
-    print('What is the result of the expression?')
+game_rool = 'What is the result of the expression?'
+
+
+def main(name):
     numb = randint(1, 21)
     numb_2 = randint(1, 21)
     a = randint(1, 3)
@@ -23,11 +24,7 @@ def main():
 
     if g != str(point):
         print(f"{g} is wrong answer ;(. Correct answer"
-              f" was {point}.\nLet's try again, {cli.name}!")
+              f" was {point}.\nLet's try again, {name}!")
         return False
     else:
         print('Correct!')
-
-
-if __name__ == "__main__":
-    main()
