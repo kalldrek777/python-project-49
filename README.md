@@ -29,3 +29,4 @@ asciinema brain-calc: <script async id="asciicast-QJ3tslVjWNWEiZd5KBz7C5I1h" src
 asciinema brain-gcd:  <script async id="asciicast-6nHyioXBclaqkXoQ1pyCFZd9g" src="https://asciinema.org/a/6nHyioXBclaqkXoQ1pyCFZd9g.js"></script>
 asciinema brain-progression:  <script async id="asciicast-PFvjxZspJFfrsO25kZd6RWDS4" src="https://asciinema.org/a/PFvjxZspJFfrsO25kZd6RWDS4.js"></script>
 asciinema brain-prime:  <script async id="asciicast-94jDUYTSVIT0SgGq9nBzLLprw" src="https://asciinema.org/a/94jDUYTSVIT0SgGq9nBzLLprw.js"></script>
+<script async id="asciicast-94jDUYTSVIT0SgGq9nBzLLprw" src="https://asciinema.org/a/94jDUYTSVIT0SgGq9nBzLLprw.js"></script>
