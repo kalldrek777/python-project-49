@@ -1,10 +1,10 @@
 #!/usr/bin/env/ python3
-import brain_games.games.brain_gcd as game_module
-from brain_games.engine import main as engine
+import brain_games.games.brain_gcd as brain_gcd
+from brain_games.engine import engine
 
 
 def main():
-    engine(game_module)
+    engine(brain_gcd)
 
 
 if __name__ == "__main__":
