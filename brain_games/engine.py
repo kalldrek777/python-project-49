@@ -8,7 +8,7 @@ def engine(game):
     print(game.GAME_RULE)
     rounds = 3
     for _ in range(rounds):
-        question, correct_answer = game.main()
+        question, correct_answer = game.get_question_and_right_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 

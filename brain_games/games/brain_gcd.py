@@ -5,7 +5,7 @@ import math
 GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def main():
+def get_question_and_right_answer():
     numb = randint(1, 51)
     numb_2 = randint(1, 51)
 

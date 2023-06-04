@@ -1,5 +1,5 @@
 #!/usr/bin/env/ python3
-import brain_games.games.brain_calc as brain_calc
+from brain_games.games import brain_calc
 from brain_games.engine import engine
 
 

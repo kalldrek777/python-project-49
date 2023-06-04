@@ -4,18 +4,18 @@ from random import randint
 GAME_RULE = 'What is the result of the expression?'
 
 
-def main():
+def get_question_and_right_answer():
     numb = randint(1, 21)
     numb_2 = randint(1, 21)
-    a = randint(1, 3)
+    operator = randint(1, 3)
 
-    if a == 1:
+    if operator == 1:
         question = f'{numb} + {numb_2}'
         answer = numb + numb_2
-    elif a == 2:
+    elif operator == 2:
         question = f'{numb} - {numb_2}'
         answer = numb - numb_2
-    elif a == 3:
+    elif operator == 3:
         question = f'{numb} * {numb_2}'
         answer = numb * numb_2
 
