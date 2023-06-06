@@ -8,7 +8,7 @@ GAME_RULE = 'Answer "yes" if given number is prime. ' \
 def get_question_and_right_answer():
     question = randint(1, 51)
     operator = 0
-    answer = if_prime(question, operator) 
+    answer = if_prime(question, operator)
 
     return question, answer
 
