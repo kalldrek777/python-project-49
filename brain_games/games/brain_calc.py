@@ -8,12 +8,12 @@ def get_question_and_right_answer():
     numb = randint(1, 21)
     numb_2 = randint(1, 21)
     operator = choice("+-*")
-    question, answer = calc(numb, numb_2, operator)
+    question, answer = calculations(numb, numb_2, operator)
 
     return question, answer
 
 
-def calc(numb, numb_2, operator):
+def calculations(numb, numb_2, operator):
     if operator == "+":
         question = f'{numb} + {numb_2}'
         answer = numb + numb_2
