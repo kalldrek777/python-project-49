@@ -23,9 +23,9 @@ After cloning the repository and installing the necessary libraries,
 run the script using "poetry run script_name"
 
 
-asciinema brain-games: [![asciicast](https://asciinema.org/a/U0Mu7v0CpYIbYiP0qfiUL1i9v.svg)](https://asciinema.org/a/U0Mu7v0CpYIbYiP0qfiUL1i9v)
-asciinema brain-even: [![asciicast](https://asciinema.org/a/JLcIm5ujClzVEM6PfWtrQnkNp.svg)](https://asciinema.org/a/JLcIm5ujClzVEM6PfWtrQnkNp)
-asciinema brain-calc: [![asciicast](https://asciinema.org/a/QJ3tslVjWNWEiZd5KBz7C5I1h.svg)](https://asciinema.org/a/QJ3tslVjWNWEiZd5KBz7C5I1h)
-asciinema brain-gcd:  [![asciicast](https://asciinema.org/a/6nHyioXBclaqkXoQ1pyCFZd9g.svg)](https://asciinema.org/a/6nHyioXBclaqkXoQ1pyCFZd9g)
-asciinema brain-progression:  [![asciicast](https://asciinema.org/a/PFvjxZspJFfrsO25kZd6RWDS4.svg)](https://asciinema.org/a/PFvjxZspJFfrsO25kZd6RWDS4)
-asciinema brain-prime:  [![asciicast](https://asciinema.org/a/94jDUYTSVIT0SgGq9nBzLLprw.svg)](https://asciinema.org/a/94jDUYTSVIT0SgGq9nBzLLprw)
+asciinema brain-games: [![asciicast](https://asciinema.org/a/CLvtREHOyOENUqnnmsP2cMcUZ.svg)](https://asciinema.org/a/CLvtREHOyOENUqnnmsP2cMcUZ)
+asciinema brain-even: [![asciicast](https://asciinema.org/a/xueez5X0bNKRNxUpg1Q8bLqHU.svg)](https://asciinema.org/a/xueez5X0bNKRNxUpg1Q8bLqHU)
+asciinema brain-calc: [![asciicast](https://asciinema.org/a/5u3wrChn5CU9UEhdPELt2UaFU.svg)](https://asciinema.org/a/5u3wrChn5CU9UEhdPELt2UaFU)
+asciinema brain-gcd:  [![asciicast](https://asciinema.org/a/2WW5xXPidbqN4QT01mPnvsSeB.svg)](https://asciinema.org/a/2WW5xXPidbqN4QT01mPnvsSeB)
+asciinema brain-progression: [![asciicast](https://asciinema.org/a/XAssHholOy5lJvqy4SAFFRJhP.svg)](https://asciinema.org/a/XAssHholOy5lJvqy4SAFFRJhP)  
+asciinema brain-prime: [![asciicast](https://asciinema.org/a/Htz7P8D5D9eBiHNPkfptu8mZN.svg)](https://asciinema.org/a/Htz7P8D5D9eBiHNPkfptu8mZN) 
