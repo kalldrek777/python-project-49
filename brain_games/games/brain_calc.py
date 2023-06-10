@@ -25,5 +25,3 @@ def calculations(numb, numb_2, operator):
         answer = numb * numb_2
 
     return question, answer
-
-
